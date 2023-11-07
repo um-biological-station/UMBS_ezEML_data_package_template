@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml system="https://pasta.edirepository.org" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access system="https://pasta.edirepository.org" scope="document" order="allowFirst" authSystem="https://pasta.edirepository.org/authentication">
+    <allow>
+      <principal>uid=umbiologicalstat,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Data Package Template: (data title) at the University of Michigan Biological Station, Pellston, MI (range of years)</title>
+    <associatedParty>
+      <individualName>
+        <givenName>Jason</givenName>
+        <givenName>M</givenName>
+        <surName>Tallant</surName>
+      </individualName>
+      <organizationName>University of Michigan Biological Station</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>9133 Biological Road</deliveryPoint>
+        <city>Pellston</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>49769</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">734-615-5005</phone>
+      <electronicMailAddress>umbsdata@umich.edu</electronicMailAddress>
+      <onlineUrl>https://lsa.umich.edu/umbs/people/staff/jtallant.html</onlineUrl>
+      <userId directory="https://orcid.org">0000-0003-4790-8772 </userId>
+      <userId directory="https://ror.org/">02hhndj92</userId>
+      <role>Data Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Helen</givenName>
+        <surName>Habicht</surName>
+      </individualName>
+      <organizationName>University of Michigan Biological Station</organizationName>
+      <positionName>Research Coordinator and Lab Manager</positionName>
+      <address>
+        <deliveryPoint>9133 Biological Road</deliveryPoint>
+        <city>Pellston</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>49769</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>habicht@umich.edu</electronicMailAddress>
+      <onlineUrl>https://lsa.umich.edu/umbs</onlineUrl>
+      <userId directory="https://orcid.org">0000-0002-2006-9422</userId>
+      <userId directory="https://ror.org/">02hhndj92</userId>
+      <role>Data Submission Review</role>
+    </associatedParty>
+    <keywordSet>
+      <keyword>University of Michigan Biologial Station</keyword>
+      <keyword>UMBS</keyword>
+    </keywordSet>
+    <intellectualRights>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</intellectualRights>
+    <maintenance>
+      <description>        <para>Data Package Template: describe how has the dataset been maintained and/or how should it be maintained in the future</para>
+</description>
+    </maintenance>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2023.11.01"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
